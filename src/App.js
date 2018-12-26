@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from './components/Nav';
+import PictureOfTheDay from './components/PictureOfTheDay';
 
 class App extends React.Component {
   state = {
@@ -9,6 +10,7 @@ class App extends React.Component {
     return (
       <div>
         <Nav />
+        <PictureOfTheDay />
       </div>
     );
   }
